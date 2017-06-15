@@ -50,13 +50,14 @@ h1 {
     left: 550px;
 }
 
-.projects{
+#addButton{
     font-family: 'Times New Roman', serif;
     background-color: darkslategrey;
     color: antiquewhite;
-    width: 100px;
+    width: 125px;
+    height: 40px;
     position: relative;
-    top: 350px;
+    top: 345px;
     left: 650px;
 }
 
