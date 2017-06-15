@@ -1,2 +1,62 @@
-﻿body {
+﻿
+html {
+    /*background-image: url("https://static.pexels.com/photos/235985/pexels-photo-235985.jpeg");*/
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQotS08puSrFNPeld022nPB39o9LFvJGNFklIeZP2ezMAr13XZcJQ"); 
+    background-size: cover;
 }
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+	color: black;
+	text-align: center;
+    padding: 0px;
+}
+
+.text{
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+
+.img-circle{
+    border-radius: 2%;
+    height: 300px;
+    width: 300px;
+    display: block;
+    position: relative;
+    left: 100px;
+    top: 25px;
+    
+}
+
+.context{
+    font-family: 'Times New Roman', serif;
+    font-size: 19px;
+    display: block;
+    width: 500px;
+    float: right;
+    position: relative;
+    right: 200px;
+    top: 125px;
+}
+
+.projectintro{
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    position: relative;
+    top: 375px;
+    left: 550px;
+}
+
+.projects{
+    font-family: 'Times New Roman', serif;
+    background-color: darkslategrey;
+    color: antiquewhite;
+    width: 100px;
+    position: relative;
+    top: 350px;
+    left: 650px;
+}
+
