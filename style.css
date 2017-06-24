@@ -1,5 +1,5 @@
 ﻿
-html {
+/*html {
     background: rgba(183,222,237,1);
     background: -moz-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 17%, rgba(33,180,226,1) 78%, rgba(183,222,237,1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(183,222,237,1)), color-stop(17%, rgba(183,222,237,1)), color-stop(78%, rgba(33,180,226,1)), color-stop(100%, rgba(183,222,237,1)));
@@ -8,14 +8,22 @@ html {
     background: -ms-linear-gradient(top, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 17%, rgba(33,180,226,1) 78%, rgba(183,222,237,1) 100%);
     background: linear-gradient(to bottom, rgba(183,222,237,1) 0%, rgba(183,222,237,1) 17%, rgba(33,180,226,1) 78%, rgba(183,222,237,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed', GradientType=0 );
-}
+}*/
 
-h1 {
+.headings{
     font-family: Helvetica, sans-serif;
-    font-size: 2em;
+    font-size: 2.5em;
 	color: black;
 	text-align: center;
-    padding: 0px;
+    padding-top: 1em;
+    padding-bottom: .25em;
+}
+.subheadings {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.25em;
+    color: black;
+    text-align: center;
+    padding-bottom: 1em;
 }
 
 .text{
@@ -27,7 +35,7 @@ h1 {
 
 .img-circle{
     border-radius: 2%;
-    width: 25%;
+    width: 75%;
     display: block;
     position: relative;
     left: 5em;
@@ -58,10 +66,19 @@ h1 {
     font-family: 'Times New Roman', serif;
     background-color: darkslategrey;
     color: antiquewhite;
-    width: 125px;
-    height: 40px;
-    position: relative;
-    top:  25.5em;
-    left: 50em;
+    width: 10em;
+    height: 5em;
 }
-
+.container{
+    background-color: lightcyan;
+    padding: 2em;
+}
+.col-lg-offset-5{
+    vertical-align:auto;
+}
+.col-sm-4{
+    vertical-align:auto;
+}
+.buttons{
+    padding: 4em;
+}

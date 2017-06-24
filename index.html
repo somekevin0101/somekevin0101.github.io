@@ -2,49 +2,43 @@
 <html>
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-	
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
     <script src="Javascript.js"></script>
-    <link href="style.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <title>Kevin Somerville Portfolio Page</title>
-	
+
 </head>
 
 <body>
 
-    <h1>Kevin Somerville</h1>
+    <h1 class="headings">Kevin Somerville</h1>
 
-    <div class="text">Software Developer</div>
+    <h3 class="subheadings">Software Developer</h3>
+    <div class="container text-center">
 
-    <div class="context">
-
-        Passionate, energetic software developer looking to grow into a role where I can use my
-        teaching skills to train and mentor new developers. I'm highly motivated to learn in order
-        to achieve this goal. I enjoy using my creativity to solve both complex and simple problems.
-        Some of my most valuable learning moments as a developer have been as a result of spending 
-        time in debug mode to learn the flow of a software solution, and to better understand how problems can be solved.
-
-    </div>
-
-    <div class="projectintro">
-        Projects:
-    </div>
-
-    <div class="projects" id="button">
-        <form>
-            <input type="button" id="addButton" value="A Text Based RPG" />
-        </form>
-
-    </div>
-
-
-    <img class ="img-circle" src="https://avatars2.githubusercontent.com/u/24896019?v=3&s=460" alt="Kevin Somerville" />
-	
-	
-	
-    <p></p>
-	
-	<section/>
-
+        <br />
+        <div class="row">
+            <div class="col-sm-4">
+                <img class="img-circle" src="content/family.jpg" alt="Kevin Somerville" />
+            </div>
+            <div class="col-lg-offset-5">
+                Passionate, energetic software developer looking to grow into a role where I can use my
+                teaching skills to train and mentor new developers. I'm highly motivated to learn in order
+                to achieve this goal. I enjoy using my creativity to solve both complex and simple problems.
+                Some of my most valuable learning moments as a developer have been as a result of spending
+                time in debug mode to learn the flow of a software solution, and to better understand how problems can be solved.
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="btn-group btn-group-justified">
+                <a href="https://github.com/somekevin0101/RPGDuo" class="btn btn-primary">A Text Based RPG</a>
+                <a href="https://github.com/somekevin0101/YinYogaSequencing" class="btn btn-primary">A Yin Yoga Website</a>
+                <a href="https://github.com/somekevin0101/Vending-Machine-1.0" class="btn btn-primary">Vending Machine 1.0</a>
+                <a href="https://github.com/somekevin0101/Parks-Reservation" class="btn btn-primary">Parks Reservation System</a>
+                <a href="#" class="btn btn-primary">ASP.NET MVC Yoga Website</a>
+            </div>
+        </div>
 </body>
 </html>
