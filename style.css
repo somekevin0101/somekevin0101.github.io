@@ -28,7 +28,7 @@
     text-align: left;
 }
 
-#img-circle{
+#img{
     border-radius: 2%;
     width: 75%;
 }
@@ -42,13 +42,6 @@
     left: 28em;
 }
 
-#addButton{
-    font-family: 'Times New Roman', serif;
-    background-color: darkslategrey;
-    color: antiquewhite;
-    width: 10em;
-    height: 5em;
-}
 .container-fluid{
     background-color: lightcyan;
     padding: 2em;
@@ -59,9 +52,16 @@
 .col-sm-4{
     vertical-align:auto;
 }
-.buttons{
-    padding: 4em;
+#buttons{
+    padding: 2em;
+    white-space: normal;
+    text-align:center;
 }
 .row{
     padding-bottom: 3em;
+    white-space: normal;
+}
+#button-text{
+    white-space: normal;
+    text-align: center;
 }
