@@ -1,16 +1,16 @@
 ﻿
 #headings{
     font-family: Helvetica, sans-serif;
-    font-size: 2.5em;
+    font-size: 2em;
 	color: black;
     background-color:white;
 	text-align: center;
     padding-top: .1em;
-    padding-bottom: .25em;
+    padding-bottom: .05em;
 }
 #subheadings {
     font-family: Helvetica, sans-serif;
-    font-size: 1.25em;
+    font-size: 1em;
     color: black;
     position:relative;
     bottom: 1.5em;
@@ -44,7 +44,7 @@
 
 .container-fluid{
     background-color: lightcyan;
-    padding: 2em;
+    padding-top: 1em;
 }
 .col-lg-offset-5{
     vertical-align:auto;
@@ -58,10 +58,22 @@
     text-align:center;
 }
 .row{
-    padding-bottom: 3em;
+    padding-bottom: 1em;
     white-space: normal;
 }
 #button-text{
     white-space: normal;
     text-align: center;
+}
+#theCarousel{
+    width: 100%;
+    height: 12.5em;
+    background-color: lightsteelblue;
+}
+h1{
+    font-size: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bobo{
+    text-align:center;
 }

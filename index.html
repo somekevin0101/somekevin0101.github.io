@@ -4,7 +4,6 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="Javascript.js"></script>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <title>Kevin Somerville Portfolio Page</title>
@@ -20,11 +19,11 @@
 
         <br />
         <div class="row">
-            <div class="col-sm-1"></div>
-            <div class="col-sm-4">
+            <div class="col-lg-1 col-md-12 col-sm-12 col-xs-12"></div>
+            <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12">
                 <img id="img" src="content/family.jpg" alt="Kevin Somerville" />
             </div>
-            <div id="text" class="col-lg-offset-5">
+            <div id="text" class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
                 Passionate, energetic software developer looking to grow into a role where I can use my
                 teaching skills to train and mentor new developers. I'm highly motivated to learn in order
                 to achieve this goal. I enjoy using my creativity to solve both complex and simple problems.
@@ -32,17 +31,76 @@
                 time in debug mode to learn the flow of a software solution, and to better understand how problems can be solved.
                 Tech Elevator capstone projects and independent projects on GitHub are linked below.
             </div>
-            <div class="col-sm-2"></div>
         </div>
-        <div id="buttons" class="container-fluid">
-            <div id="button-text" class="btn-toolbar">
-                <a href="https://github.com/somekevin0101/RPGDuo" class="btn btn-primary">A Text Based RPG</a>
-                <a href="https://github.com/somekevin0101/YinYogaSequencing" class="btn btn-primary">A Yin Yoga Website</a>
-                <a href="https://github.com/somekevin0101/Vending-Machine-1.0" class="btn btn-primary">Vending Machine 1.0</a>
-                <a href="https://github.com/somekevin0101/Parks-Reservation" class="btn btn-primary">Parks Reservation System</a>
-                <a href="#" class="btn btn-primary">ASP.NET MVC Yoga Website</a>
+    </div>
+    <div class="bobo">
+        <div id="theCarousel" class="carousel slide" data-interval="false">
+            <ol class="carousel-indicators">
+                <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#theCarousel" data-slide-to="1"></li>
+                <li data-target="#theCarousel" data-slide-to="2"></li>
+                <li data-target="#theCarousel" data-slide-to="3"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="slide1">
+                        <div>
+                            <h2>RPGDuo</h2>
+                            <p>
+                                A text based role playing game in C#. Play 5 different classes, defeat
+                                monsters in the arena, and explore the town and converse with its citizens.
+                            </p>
+                            <p><a href="https://github.com/somekevin0101/RPGDuo" class="btn btn-primary btn-sm">Check It Out!</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slide2">
+                        <div>
+                            <h2>Yin Yoga Sequencing</h2>
+                            <p>A website utilizing HTML/CSS and Javascript to produce a basic Yin Yoga Sequence.</p>
+                            <p><a href="https://github.com/somekevin0101/YinYogaSequencing" class="btn btn-primary btn-sm">Get Your Yin On</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slide3">
+                        <div>
+                            <h2>Vending Machine 1.0</h2>
+                            <p>
+                                A console application in C# creating a virtual vending machine. My first student project
+                                at Tech Elevator.
+                            </p>
+                            <p><a href="https://github.com/somekevin0101/Vending-Machine-1.0" class="btn btn-primary">Vending Machine 1.0</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slide4">
+                        <div>
+                            <h2>Parks Reservation System</h2>
+                            <p>
+                                A console application in C# creating a Parks Reservation System. My second student project
+                                at Tech Elevator.
+                            </p>
+                            <p><a href="https://github.com/somekevin0101/Parks-Reservation" class="btn btn-primary">Parks Reservation System</a></p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+            <a class="left carousel-control" href="#theCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"> </span>
+            </a>
+            <a class="right carousel-control" href="#theCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
 
 </body>
 </html>
+
+
